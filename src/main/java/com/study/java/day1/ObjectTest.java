@@ -215,5 +215,9 @@ public class ObjectTest {
         System.out.println("equals:" + Objects.nonNull(1));
         System.out.println("equals:" + Objects.equals(null, 1));
         System.out.println("equals:" + Objects.equals(Integer.valueOf(128), Integer.valueOf(128)));
+
+
+        HashCodeTest h1 = new HashCodeTest(1), h2 = new HashCodeTest(2);
+        System.out.println(h1 == h2);
     }
 }

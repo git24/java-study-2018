@@ -2,7 +2,7 @@ package com.study.java.day1;
 
 import java.io.*;
 
-public class SerilaizeTest {
+public class SerializeTest {
     /*
      * 다른 환경에서 직렬화를 한다고 생각할 경우 UID를 일치시켜야 한다
      * 디시리얼라이즈 과정에서 형태가 변경되거나 할 때, 불리
@@ -35,7 +35,7 @@ public class SerilaizeTest {
         System.out.println("java study 2018");
 
         // serialize
-        SerilaizeTest.SerializeClass serializeClass = new SerilaizeTest.SerializeClass();
+        SerializeTest.SerializeClass serializeClass = new SerializeTest.SerializeClass();
         serializeClass.parameter = "go serialize";
 
         byte[] bytes = null;
